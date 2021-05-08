@@ -5,7 +5,7 @@ currently providing python implementation for back tracking elliott wave
 base on the method and Matlab code on the paper [ **Profitability of Elliott Waves and Fibonacci Retracement Levels in the Foreign Exchange Market
  ** ](http://arno.uvt.nl/show.cgi?fid=131569)
 
-###motivation
+### motivation
 since there are no opensource elliott wave labelling package. to facilitate the private project that me and my friend currently working on, this library is created.
 
 ### installation
@@ -77,7 +77,7 @@ SP500 = web.DataReader(['sp500'], 'fred', start, end)
 haha=taew.Alternative_ElliottWave_label_upward(np.array(SP500[['sp500']].values , dtype=np.double).flatten(order='C'))
 print(haha)
 ```
-####expected output
+#### expected output
 ```python
 '''
 6555
