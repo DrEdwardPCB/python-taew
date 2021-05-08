@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+taew/__init__.py
+taew/ew.py
+taew.egg-info/PKG-INFO
+taew.egg-info/SOURCES.txt
+taew.egg-info/dependency_links.txt
+taew.egg-info/top_level.txt
